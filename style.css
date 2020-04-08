@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(images/body4.jpg);
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.badge:hover{
+    opacity: 20;
+}
+#nav-bar{
+    position: sticky;
+    z-index: 0;
+}
+.navbar{
+    background-image: linear-gradient(to right, #FF00FF	,#9400D3);
+}
+.navbar-nav li a{
+    color: white !important ;
+}
+.navbar-nav .dropdown-menu a{
+    color: black !important;
+}
+/*--------------banner-----------------------*/
+
+#banner{
+    background-image: linear-gradient(to right ,#9B04F7,#F304F7);
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.play-btn{
+    margin-left: 80px;
+    margin-left: 15cm;
+}
+.play{
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Gotu',sans-serif;
+    margin-left: 14.3cm;
+}
+
+.promo-title{
+    font-family: 'Gotu', sans-serif !important;
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 10cm;
+}
+#Best-tours .Tours {
+    margin-left: 13cm;
+    font-size: 40px;
+    color: red;
+    font-family: 'Gotu',sans-serif;
+    font-weight: 800;
+}
+.cards img{
+    list-style: none;
+    display: inline;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+.cards{
+    display: flexbox;
+    display: inline-block;
+}
+.card{
+    color: black;
+}
+.input-group-text{
+    background-color: black;
+}
+.customer-review{
+    margin-left: 400px;
+}
+#feedback{
+    margin-top: 2cm;
+}
+.reviews{
+    margin-top: 3cm;
+    margin-left: 9.5cm;
+    font-size: 40px;
+    font-family: 'Gotu',sans-serif;
+    color: darkgreen;
+    font-weight: 800;
+}
+.contacts img{
+    height: 50px;
+    margin: 20px;
+}
+.contacts{
+    background-image: linear-gradient(to right, #8A2BE2	,#8B008B);
+}
+.contacts p{
+    margin-left: 30px;
+    padding: 0px;
+    font-size: 40px;
+    font-family: 'Gotu',sans-serif;
+    color: black;
+}
+@media screen and (max-width:479px)
+{
+    .collapse {
+        width: 100%;
+    }
+    #banner{
+        width: 100%;
+    }
+    .Tours{
+        width: 100%;
+        margin-left: 20px;
+        padding: 0px;
+    }
+    .customer-review{
+        margin-right: 50px;
+    }
+}
