@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(images/body.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.badge:hover{
+    opacity: 20;
+}
+#nav-bar{
+    position: sticky;
+    z-index: 0;
+}
+.navbar{
+    background-image: linear-gradient(to right, #FF00FF	,#9400D3);
+}
+.navbar-nav li a{
+    color: white !important ;
+}
+.navbar-nav .dropdown-menu a{
+    color: black !important;
+}
+.nav-link .btn{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/***************banner*************/
+.who-m-i{
+    padding: 100px;
+    padding-top: 30px;
+    margin-left: 11cm;
+    font-size: 60px;
+    font-family: 'Gotu',sans-serif;
+    color: red;
+}
+.col-md-6{
+    margin-left: 5cm;
+    margin-top: 0px !important;
+    padding-top: 0px;
+}
+.my-card{
+    margin-left: 200px !important;
+}

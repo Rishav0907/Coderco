@@ -1,16 +1,17 @@
 <html>
-    <title>Travel Guide</title>
+    <title>Coderco</title>
     <header><h1><span class="badge badge-secondary"><i class="fas fa-drafting-compass"></i>Coderco</span></h1></header>
     <head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/media.css" type="text/css">
         <script src="https://kit.fontawesome.com/d3aa46a60b.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <body>
-            <section id="nav-bar">
+            <section class="media-nav-bar" id="nav-bar">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -19,14 +20,14 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#"><button type="button" class="btn btn-warning"><i class="fas fa-home"></i>Home</button></a>
+                      <a class="nav-link" href="index.html"><button type="button" class="btn btn-success"><i class="fas fa-home"></i> Home</button></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#"><button type="button" id="abt-me2" class="btn btn-warning"><i class="fas fa-portrait"></i>Who am I?</button></a>
+                      <a class="nav-link" href="who.html"><button type="button" id="abt-me2" class="btn btn-success"><i class="fas fa-portrait"></i> Who am I?</button></a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <button type="button" class="btn btn-warning"><i class="fab fa-superpowers"></i>Services</button>
+                        <button type="button" class="btn btn-success"><i class="fab fa-superpowers"></i> Services</button>
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Tech Blogs</a>
@@ -35,7 +36,7 @@
                       </div>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link " href="#"><button type="button" class="btn btn-warning"><i class="fas fa-id-card"></i>Contacts</button></a>
+                      <a class="nav-link" href="#"><button type="button" id="abt-me2" class="btn btn-success"><i class="fas fa-id-card"></i> Contacts</button></a>
                     </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
@@ -46,25 +47,14 @@
               </nav>
             </section>
             <!-----------------------Banner------------------------------->
-            <section id="Banner">
+            <section class="med-banner" id="Banner">
                 <div id="container">
-                    <div id="row">
-                        <div id="col-md-6">
-                    <p class="promo-title">"Bring Out the Techy in You "<i class="far fa-smile-wink"></i></p>
+                    <div id="row" >
+                        <div id="col-md-6" class="med-banner-child">
+                          <img src="images/COD{E}RCO.png" class="stag-img">
+                    <p  class="promo-title" >"Bring Out the Techy in You"<i class="far fa-smile-wink"></i></p>
                      <a class="play-btn" href="#"><img src="images/tech.jpeg" width="150px"></a>
                     </div>
-                    </div>
-                    <p>
-                      <a class="btn btn-primary" id="abt-me" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Why Choose me?</a>
-                    </p>
-                    <div class="row">
-                      <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample1">
-                          <div class="card card-body">
-                           I am a Web Developer, an Ethical Hacker and a programmer and I will be guiding through a path paved by my experience towards your goal.
-                          </div>
-                        </div>
-                      </div>
                     </div>
                     
                 </div>
@@ -98,31 +88,33 @@
                       <p class="card-text">Know good hacking techniques bt still not able to solve CTF challrnges? Bruteforcing for a long time and still not getting the password? Don't need to worry anu more, I will providing efficient solutions to various CTF challenges.</p>
                       <a href="#" class="btn btn-primary">visit</a>
                 </div>
+                </div>
+                </div>
             </section>
            
               <h3 class="reviews">What are my future plans?</h3>
             <section class="customer-review">
-              <div class="col-md-6">
+              <div class="col-md-8">
                 <div class="card-group">
-                  <div class="card" style="width: 20rem;">
-                    <img src="images/rev1.jpeg" class="card-img-top" height="105px" style="max-width: 100%;">
+                  <div class="card" style="width: 18rem;">
+                    <img src="images/fp1.jpeg" class="card-img-top" height="105px" style="max-width: 100%;">
                     <div class="card-body">
                       <h5 class="card-title">Web Development</h5>
                       <p class="card-text">"May be not very soon , but i am very curious to bring a video+documneted coourse"</p>
                     </div>
                   </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="images/rev2.jpeg" class="card-img-top" height="105px" style="max-width: 100%;">
+                    <img src="images/fp2.jpg" class="card-img-top" height="105px" style="max-width: 100%;">
                     <div class="card-body">
-                      <h5 class="card-title">Natasha</h5>
-                      <p class="card-text">"Never had such a experience before.Keep it up"</p>
+                      <h5 class="card-title">CTF Challenges</h5>
+                      <p class="card-text">Ya you thought right I am going to launch my very own CTF challenges very soon. Swags will be given</p>
                    </div>
                   </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="images/rev3.jpeg" class="card-img-top" height="105px" style="max-width: 100%;">
+                    <img src="images/fp3.jpeg" class="card-img-top" height="105px" style="max-width: 100%;">
                     <div class="card-body">
-                      <h5 class="card-title">John</h5>
-                      <p class="card-text">"Planning to make further tours with your company"</p>
+                      <h5 class="card-title">Machine-Learning</h5>
+                      <p class="card-text">"This is for sure that i will be launching blogs+video courses on my site regarding machine learning"</p>
                   </div>
                 </div>
             </section>
@@ -139,6 +131,7 @@
     <footer>
       <section class="contacts">
         <p>Contact us:</p>
+        <p class="email">Email : rsaha0907@gmail.com</p>
       <a href="#"><img src="Favorites/fb.png" style="max-width: 100%;"></a>
       <a href="#"><img src="Favorites/insta.png" style="max-width: 100%;"></a>
       <a href="#"><img src="Favorites/waap.png" style="max-width: 100%;"></a>
