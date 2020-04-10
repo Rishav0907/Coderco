@@ -38,6 +38,8 @@ body{
     font-size: 60px;
     font-family: 'Gotu',sans-serif;
     color: red;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 .col-md-6{
     margin-left: 5cm;

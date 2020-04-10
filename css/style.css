@@ -5,7 +5,6 @@
     margin: 0px;
 }
 body{
-    background-image: url(images/body.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +34,6 @@ body{
 
 #banner{
     background-image: linear-gradient(to right ,#D3D3D3,#D3D3D3);
-    color: white;
     padding-top: 5%;
     padding-bottom: 3%;
     border: solid black 1px;

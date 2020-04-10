@@ -76,8 +76,7 @@
         width: 30%;
     }
     .med-banner{
-        width: 100@media only screen and (max-width: 600px) {
-    .media-nav-bar{
+        width: 100;
         max-width: 600px;
     }
     .med-badge{
@@ -159,7 +158,6 @@
     .stag-img{
         margin-left: 40px;
         width: 80%;
-    }%;
     }
     .stag-img{
         margin-left: 40px;
