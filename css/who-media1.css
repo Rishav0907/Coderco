@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px){
+	.who-m-i{
+		margin-left: 4%;
+		font-size: 50px;
+	}
+	.my-card .col-md-6{
+		margin-left: 2%;
+		padding-left: 0%;
+	}
+}

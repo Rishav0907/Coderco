@@ -1,0 +1,40 @@
+@media only screen and (max-width: 600px){
+	body{
+		width: 100%;
+		overflow-x: hidden;
+	}
+	.media-nav-bar{
+		width: 100%;
+        overflow-x: hidden; 
+	}
+	.med-banner{
+		width: 100%;
+		overflow-x: hidden;
+	}
+	.stag-img{
+		margin-left: 5%;
+		width: 90%;
+	}
+	.promo-title{
+		margin-left: 1%;
+		font-size: 30px;
+	}
+	.play-btn{
+		margin-left: 30%;
+	}
+	#Best-tours .col-md-12 .Tours{
+		margin-left: 120px;
+		margin-top: 30px;
+		float: left;
+	}
+	#Best-tours .col-md-6{
+		margin-left: 20%;
+	}
+	.reviews{
+		margin-left: 20%;
+		font-size: 30px;
+	}
+	.customer-review{
+		margin-left: 20%;
+	}
+}
