@@ -8,7 +8,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: hidden !important;
+
 }
 .badge:hover{
     opacity: 20;
@@ -31,7 +31,10 @@ body{
     margin-right: 40px;
 }
 /*--------------banner-----------------------*/
-
+.internship{
+    color: red;
+    font-size: 30px;
+}
 #banner{
     background-image: linear-gradient(to right ,#D3D3D3,#D3D3D3);
     padding-top: 5%;
